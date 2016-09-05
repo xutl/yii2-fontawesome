@@ -8,10 +8,8 @@ namespace xutl\fontawesome;
 
 use yii\web\AssetBundle;
 
-class Asset extends AssetBundle
+class CDNAsset extends AssetBundle
 {
-
-
     /**
      * @inherit
      */
