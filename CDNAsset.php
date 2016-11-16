@@ -14,7 +14,7 @@ class CDNAsset extends AssetBundle
      * @inherit
      */
     public $css = [
-        '//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css',
+        '//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css',
     ];
 
 
