@@ -15,7 +15,7 @@ composer require --prefer-dist xutl/yii2-fontawesome-asset
 or add
 
 ```json
-"xutl/yii2-fontawesome-asset": "*"
+"xutl/yii2-fontawesome-asset": "~2.0.0"
 ```
 
 to the `require` section of your `composer.json`.
