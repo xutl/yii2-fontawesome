@@ -13,7 +13,7 @@ class Asset extends AssetBundle
     /**
      * @inherit
      */
-    public $sourcePath = '@xutl/fontawesome/assets';
+    public $sourcePath = '@bower/font-awesome';
 
     /**
      * @inherit
