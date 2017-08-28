@@ -23,3 +23,22 @@ to the `require` section of your `composer.json`.
 ````
 \xutl\fontawesome\Asset::register($this);
 ````
+
+### Use CDN
+
+```php
+'components' => [
+    'assetManager' => [
+        'bundles' => [
+            'xutl\fontawesome\Asset' => [
+                'sourcePath' => null, // do not publish the bundle
+                'css' => [
+                    '//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css',
+                ]
+            ]
+        ]
+    ],
+],
+
+
+```
